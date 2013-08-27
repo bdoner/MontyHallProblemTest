@@ -1,8 +1,8 @@
 from montyUtils import *
 import random
-__author__ = 'Nikolaj'
+__author__ = 'sjums'
 
-numTests = 100000000
+numTests = 100000
 totalFirst = 0
 totalSecond = 0
 totalGuesses = 0
