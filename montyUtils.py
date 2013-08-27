@@ -1,6 +1,6 @@
 import random
 
-__author__ = 'Nikolaj'
+__author__ = 'sjums'
 
 class DoorState:
     Closed = 0
