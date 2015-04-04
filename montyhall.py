@@ -36,13 +36,14 @@ def collect_info(firstGuess, correctGuess):
 
     if totalGuesses == numTests:
 
-        print('\n-------------------------------\n#' + str(totalGuesses))
+        print('-------------------------------\n#' + str(totalGuesses) + ' iterations done')
         print(str((winFirst / totalFirst) * 100.0) + "% wins on first guess")
         print(str((lostFirst / totalFirst) * 100.0) + "% losses on first guess")
         print('\n')
         print(str((winSecond / totalSecond) * 100.0) + "% wins on second guess")
         print(str((lostSecond / totalSecond) * 100.0) + "% losses on second guess")
 
+print('Running...')
 for i in range(numTests):
     doorSet = DoorSet()
 
