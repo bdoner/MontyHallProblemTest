@@ -1,6 +1,5 @@
 from montyUtils import *
 import random
-__author__ = 'sjums'
 
 numTests = 100000
 totalFirst = 0
